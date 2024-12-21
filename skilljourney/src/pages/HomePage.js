@@ -3,8 +3,7 @@ import backg from '../assets/backs.jpg'
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>HOME</h1>
+        <div className='containers_back'>
             <img src={backg} />
         </div>
     );
