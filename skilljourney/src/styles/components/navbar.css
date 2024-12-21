@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 43px;
+}
+
+.nav-title h1 {
+    font-weight: 300;
+    padding-left: 90px;
+}
+
+.nav-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_list {
+    display: flex;
+    gap: 40px;
+    padding-right: 60px;
+}
+
+.nav_list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.containers_butt {
+    display: flex;
+    gap: 20px;
+}
