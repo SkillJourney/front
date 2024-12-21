@@ -1,0 +1,43 @@
+.containers_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../assets/backs.jpg');
+    /* Add transparent */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+
+.containers_info_job {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-bar input {
+    width: 400px;
+    height: 7vh;
+}
+
+.search-bar ::placeholder {
+    font-size: 15px;
+}

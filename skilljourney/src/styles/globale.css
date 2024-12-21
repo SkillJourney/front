@@ -14,12 +14,3 @@
     font-family: var(--font-main);
     scroll-behavior: smooth;
 }
-
-.containers_back {
-    display: flex;
-    z-index: 2;
-}
-
-.containers_back img {
-    width: 9000px;
-}
