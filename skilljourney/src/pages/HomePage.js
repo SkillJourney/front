@@ -52,8 +52,7 @@ const HomePage = () => {
                         <h2>Find your job</h2>
                         <div className='search-bar'>
 
-                            <AutoComplete
-                                style={{ width: 240 }}
+                            <AutoComplete className='auto'
                                 options={options}
                                 onSearch={handleJobSearch}
                                 placeholder="Job title, keywords"
@@ -61,8 +60,7 @@ const HomePage = () => {
                                     clearIcon: <CloseSquareFilled />,
                                 }}
                             />
-                            <AutoComplete
-                                style={{ width: 240 }}
+                            <AutoComplete className='auto'
                                 options={options}
                                 onSearch={handleCitySearch}
                                 placeholder="city, province or région"
