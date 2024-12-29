@@ -34,3 +34,7 @@ nav {
     display: flex;
     gap: 20px;
 }
+
+.containers_butt button {
+    background-color: var(--buttoncolors);
+}

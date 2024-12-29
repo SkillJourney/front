@@ -13,4 +13,7 @@
 
     font-family: var(--font-main);
     scroll-behavior: smooth;
+
+    /* colors: */
+    --buttoncolors: #D4EBF8;
 }
