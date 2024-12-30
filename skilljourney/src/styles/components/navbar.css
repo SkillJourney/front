@@ -3,12 +3,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 45px;
+    padding: 45px 120px;
+    background-color: var(--whitecolors);
+    position: relative;
+    z-index: 100;
 }
 
 .nav-title h1 {
     font-weight: 300;
-    padding-left: 90px;
 }
 
 .nav-title {
@@ -19,7 +21,6 @@ nav {
 .nav_list {
     display: flex;
     gap: 40px;
-    padding-right: 60px;
 }
 
 .nav_list ul {
@@ -28,6 +29,7 @@ nav {
     align-items: center;
     list-style: none;
     gap: 40px;
+    cursor: pointer;
 }
 
 .containers_butt {
@@ -35,6 +37,6 @@ nav {
     gap: 20px;
 }
 
-.containers_butt button {
+/* .containers_butt button {
     background-color: var(--buttoncolors);
-}
+} */

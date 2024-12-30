@@ -15,5 +15,13 @@
     scroll-behavior: smooth;
 
     /* colors: */
-    --buttoncolors: #D4EBF8;
+    --buttoncolors: #2f54eb;
+    --grey: #e5e7e9;
+    --deepgrey: #d1d7dc;
+    --whitecolors: #ffff;
+}
+
+.layout {
+    position: relative !important;
+    margin: 0 120px !important;
 }
