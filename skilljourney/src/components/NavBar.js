@@ -1,13 +1,27 @@
-import React from 'react';
-import { Button, Flex } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
 
+    const [isScrolled, setIsScrolled] = useState(false);
     const navigate = useNavigate()
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <nav>
+        <nav className={isScrolled ? 'scrolled' : ''}>
             <div className='nav-title'>
                 <h1>Skill<strong>Journey</strong></h1>
             </div>

@@ -16,7 +16,7 @@
 .containers_home {
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
 }
@@ -24,20 +24,18 @@
 
 .containers_info_job {
     color: var(--whitecolors);
-    height: calc(100% - 125px);
+    height: 100%;
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-    /* background-color: violet; */
 }
 
 .title {
     width: 100%;
-    /* background-color: red; */
+    margin-top: 100px;
 }
 
 .title .title_header {
@@ -75,5 +73,18 @@
 .search-bar button {
     width: 22%;
     height: 60px;
+}
 
+.containers_job_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers_job_list button {
+    width: 100%;
+
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: var(--grey);
 }
