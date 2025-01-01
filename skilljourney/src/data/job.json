@@ -1,0 +1,263 @@
+{
+    "jobs": [
+        {
+            "name": "Agriculteur",
+            "synonyms": [
+                "Fermier",
+                "Exploitant agricole"
+            ]
+        },
+        {
+            "name": "Artisan",
+            "synonyms": [
+                "Ébéniste",
+                "Menuisier",
+                "Charpentier",
+                "Ferronnier",
+                "Forgeron"
+            ]
+        },
+        {
+            "name": "Boulanger",
+            "synonyms": [
+                "Pâtissier",
+                "Artisan boulanger"
+            ]
+        },
+        {
+            "name": "Chauffeur",
+            "synonyms": [
+                "Conducteur",
+                "Chauffeur routier",
+                "Conducteur d'engins"
+            ]
+        },
+        {
+            "name": "Coiffeur",
+            "synonyms": [
+                "Barbier",
+                "Styliste capillaire"
+            ]
+        },
+        {
+            "name": "Comptable",
+            "synonyms": [
+                "Auditeur",
+                "Expert-comptable"
+            ]
+        },
+        {
+            "name": "Couturier",
+            "synonyms": [
+                "Styliste",
+                "Designer de mode"
+            ]
+        },
+        {
+            "name": "Développeur",
+            "synonyms": [
+                "Programmeur",
+                "Ingénieur logiciel",
+                "Webdesigner"
+            ]
+        },
+        {
+            "name": "Électricien",
+            "synonyms": [
+                "Technicien électricien",
+                "Installateur électrique"
+            ]
+        },
+        {
+            "name": "Enseignant",
+            "synonyms": [
+                "Professeur",
+                "Éducateur",
+                "Formateur"
+            ]
+        },
+        {
+            "name": "Esthéticienne",
+            "synonyms": [
+                "Maquilleur",
+                "Spécialiste beauté"
+            ]
+        },
+        {
+            "name": "Garde d'enfants",
+            "synonyms": [
+                "Nounou",
+                "Baby-sitter"
+            ]
+        },
+        {
+            "name": "Hôte de caisse",
+            "synonyms": [
+                "Caissier",
+                "Employé de caisse"
+            ]
+        },
+        {
+            "name": "Infirmier",
+            "synonyms": [
+                "Soignant",
+                "Aide-soignant"
+            ]
+        },
+        {
+            "name": "Livreur",
+            "synonyms": [
+                "Coursier",
+                "Transporteur"
+            ]
+        },
+        {
+            "name": "Mécanicien",
+            "synonyms": [
+                "Technicien en mécanique",
+                "Garagiste"
+            ]
+        },
+        {
+            "name": "Médecin",
+            "synonyms": [
+                "Chirurgien",
+                "Généraliste",
+                "Spécialiste"
+            ]
+        },
+        {
+            "name": "Pharmacien",
+            "synonyms": [
+                "Préparateur en pharmacie"
+            ]
+        },
+        {
+            "name": "Photographe",
+            "synonyms": [
+                "Vidéo-graphe",
+                "Reporter photo"
+            ]
+        },
+        {
+            "name": "Plombier",
+            "synonyms": [
+                "Installateur sanitaire",
+                "Technicien chauffagiste"
+            ]
+        },
+        {
+            "name": "Rédacteur",
+            "synonyms": [
+                "Écrivain",
+                "Journaliste",
+                "Scénariste"
+            ]
+        },
+        {
+            "name": "Serveur",
+            "synonyms": [
+                "Employé de restaurant",
+                "Garçon de café"
+            ]
+        },
+        {
+            "name": "Technicien",
+            "synonyms": [
+                "Opérateur",
+                "Réparateur"
+            ]
+        },
+        {
+            "name": "Vendeur",
+            "synonyms": [
+                "Commercial",
+                "Conseiller de vente"
+            ]
+        },
+        {
+            "name": "Architecte",
+            "synonyms": [
+                "Urbaniste",
+                "Concepteur"
+            ]
+        },
+        {
+            "name": "Agent de sécurité",
+            "synonyms": [
+                "Surveillant",
+                "Gardien"
+            ]
+        },
+        {
+            "name": "Assistant administratif",
+            "synonyms": [
+                "Secrétaire",
+                "Employé de bureau"
+            ]
+        },
+        {
+            "name": "Bijoutier",
+            "synonyms": [
+                "Orfèvre",
+                "Designer de bijoux"
+            ]
+        },
+        {
+            "name": "Graphiste",
+            "synonyms": [
+                "Designer graphique",
+                "Infographiste"
+            ]
+        },
+        {
+            "name": "Journaliste",
+            "synonyms": [
+                "Reporter",
+                "Rédacteur"
+            ]
+        },
+        {
+            "name": "Kinésithérapeute",
+            "synonyms": [
+                "Masseur",
+                "Rééducateur"
+            ]
+        },
+        {
+            "name": "Ouvrier agricole",
+            "synonyms": [
+                "Manœuvre agricole",
+                "Cultivateur"
+            ]
+        },
+        {
+            "name": "Tatoueur",
+            "synonyms": [
+                "Artiste tatoueur",
+                "Graphiste corporel"
+            ]
+        },
+        {
+            "name": "Vétérinaire",
+            "synonyms": [
+                "Soigneur animalier",
+                "Médecin des animaux"
+            ]
+        },
+        {
+            "name": "Pilote",
+            "synonyms": [
+                "Commandant de bord",
+                "Aviateur"
+            ]
+        },
+        {
+            "name": "Designer",
+            "synonyms": [
+                "Concepteur produit",
+                "Graphiste"
+            ]
+        }
+    ]
+}

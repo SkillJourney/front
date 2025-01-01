@@ -1,14 +1,27 @@
 nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     width: 100%;
-    padding: 43px;
+    padding: 45px 120px;
+    background-color: var(--whitecolors);
+
+    transition: padding 0.3s ease;
+}
+
+nav.scrolled {
+    padding: 20px 120px;
 }
 
 .nav-title h1 {
     font-weight: 300;
-    padding-left: 90px;
 }
 
 .nav-title {
@@ -19,7 +32,6 @@ nav {
 .nav_list {
     display: flex;
     gap: 40px;
-    padding-right: 60px;
 }
 
 .nav_list ul {
@@ -28,9 +40,14 @@ nav {
     align-items: center;
     list-style: none;
     gap: 40px;
+    cursor: pointer;
 }
 
 .containers_butt {
     display: flex;
     gap: 20px;
 }
+
+/* .containers_butt button {
+    background-color: var(--buttoncolors);
+} */
