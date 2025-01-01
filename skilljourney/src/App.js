@@ -17,17 +17,17 @@ const App = () => {
   return (
     <BrowserRouter>
       <NavBar />
-      <Background />
-      <Layout>
-        <Routes>
-          <Route path='/' element={<StartPage />} />
-          <Route path='/contact' element={<ContactPage />} />
-          <Route path='/register' element={<RegisterPage />} />
-          <Route path='/login' element={<LoginPage />} />
-          <Route path='/corporate' element={<CorporatePage />} />
-          <Route path='/jobsectorspage' element={<JobSectorsPage />} />
-        </Routes>
-      </Layout>
+      {/* <Background /> */}
+      {/* <Layout> */}
+      <Routes>
+        <Route path='/' element={<StartPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/register' element={<RegisterPage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/corporate' element={<CorporatePage />} />
+        <Route path='/jobsectorspage' element={<JobSectorsPage />} />
+      </Routes>
+      {/* </Layout> */}
     </BrowserRouter>
   );
 };
