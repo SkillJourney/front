@@ -5,6 +5,7 @@ import { CloseSquareFilled } from '@ant-design/icons';
 import city from '../data/city.json';
 import job from '../data/job.json'
 import CardCategorie from '../components/CardCategorie';
+import CardFeatured from '../components/CardFeatured';
 import chef from "../assets/chef.png"
 import admin from "../assets/administrator.png"
 import healthcare from "../assets/nurse.png"
@@ -103,12 +104,40 @@ const StartPage = () => {
                     </div>
                 </div>
 
-
                 <div className='containers_job_list'>
                     <Button onClick={() => navigate('/jobsectorspage')}>BROWSE ALL SECTORS</Button>
                 </div>
 
+                <div className='containers_featuredjob'>
+                    <h2 id='tt'>Recent Jobs</h2>
 
+                    <CardFeatured
+                        salary={50000}
+                        img={'https://res.cloudinary.com/vistaprint/images/c_scale,w_448,h_448,dpr_2/f_auto,q_auto/v1716561882/ideas-and-advice-prod/blogadmin/1-uni/1-uni.png?_i=AA'}
+                        company={'Nike Corp'}
+                        map={'Marseille'}
+                        type={'Full time'}
+                        title={'Full Stack Developer'}
+                    />
+
+                    <CardFeatured
+                        salary={50000}
+                        img={'https://usercontent.one/wp/www.studiokarma.fr/wp-content/uploads/2015/05/Logo-Starbucks.jpg?media=1691355772'}
+                        company={'Dodod'}
+                        map={'Marseille'}
+                        type={'Full time'}
+                        title={'Full Stack Developer'}
+                    />
+
+                    <CardFeatured
+                        salary={50000}
+                        img={'https://res.cloudinary.com/vistaprint/images/c_scale,w_426,h_384,dpr_2/f_auto,q_auto/v1675881000/ideas-and-advice-prod/fr-fr/Img-3s/Img-3s.jpeg?_i=AA'}
+                        company={'Dodod'}
+                        map={'Marseille'}
+                        type={'Full time'}
+                        title={'Full Stack Developer'}
+                    />
+                </div>
             </Layout>
         </>
     );
